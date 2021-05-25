@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="logo_title">#003853</color>
+    <color name="set1_1">#0D1740</color>
+    <color name="set1_2">#16245C</color>
+    <color name="set1_3">#F8F2DC</color>
+    <color name="set1_4">#A39F93</color>
+    <color name="set1_5">#E9CFAE</color>
+    <color name="set2_1">#EEE8D8</color>
+    <color name="set2_2">#1E2E4F</color>
+    <color name="set2_3">#0F1144</color>
+    <color name="set2_4">#CAB387</color>
+    <color name="set2_5">#94B3B8</color>
+    <color name="common_line_color">#D9D9D9</color>
+    <color name="primary_text_color">#A9A9A9</color>
+    <color name="secondary_text_color">#626262</color>
+    <color name="text_color">#1d1d1d</color>
+    <color name="logo_background">#003853</color>
+    <color name="primary_background">#f2f2f2</color>
+    <color name="button_background">#5CACEE</color>
+    <color name="head_blue">#ff005fce</color>
+
+    <color name="color_red_card">#FFFA2A2D</color>
+    <color name="color_red_cancel">#EE6A50</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="text_dark">#878787</color>
+    <color name="text_black">#333333</color>
+    <color name="bfbfbf">#bfbfbf</color>
+
+</resources>
