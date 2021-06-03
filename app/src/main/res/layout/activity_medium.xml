@@ -23,19 +23,35 @@
 
     <Button
         android:layout_marginTop="200dp"
-        android:layout_width="200dp"
+        android:layout_width="360dp"
+        android:textAllCaps="false"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:background="@color/button_background"
-        android:textSize="30sp"
-        android:text="题目一" />
+        android:textSize="28sp"
+        android:text="AR Engine:人脸Mesh变色"
+        android:onClick="arMesh"/>
     <Button
         android:layout_marginTop="360dp"
-        android:layout_width="200dp"
+        android:layout_width="360dp"
+        android:textAllCaps="false"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:background="@color/button_background"
-        android:textSize="30sp"
-        android:text="题目二" />
+        android:textSize="28sp"
+        android:text="Push Kit:消息推送"
+        android:onClick="pushMessage"
+        />
+    <Button
+        android:layout_marginTop="520dp"
+        android:layout_width="360dp"
+        android:textAllCaps="false"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button_background"
+        android:textSize="28sp"
+        android:text="ML Kit:人像抠图"
+        android:onClick="mlSeg"/>
+
 
 </RelativeLayout>

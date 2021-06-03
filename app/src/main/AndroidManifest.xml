@@ -17,9 +17,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BeginnerLevelActivity"/>
-        <activity android:name=".MediumLevelActivity"/>
-        <activity android:name=".AdvancedLevelActivity"/>
+        <activity android:name=".BeginnerLevelActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MediumLevelActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdvancedLevelActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".beginnerlevel.AccountLoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".beginnerlevel.CodeScannerActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mediumlevel.ArMeshActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mediumlevel.PushMessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".advancedlevel.ArCombineActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".advancedlevel.VoiceTranslateActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

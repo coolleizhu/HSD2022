@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="高级题一\nAR Engine:合并虚拟模型"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/colors_dis"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="left"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="1、基于AREngine World AR Demo，通过HitTest获取点击平面的位置，添加ARAnchor\n2、点击合并按钮，计算两个模型ARAnchor的ARPose\n3、将之前的Anchor移除，通过ARSession.CreateAnchor添加新Anchor，更新Scale，显示效果为两个模型合并为了一个大模型"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

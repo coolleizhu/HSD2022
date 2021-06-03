@@ -23,19 +23,34 @@
 
     <Button
         android:layout_marginTop="200dp"
-        android:layout_width="200dp"
+        android:layout_width="360dp"
+        android:textAllCaps="false"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:background="@color/button_background"
-        android:textSize="30sp"
-        android:text="题目一" />
+        android:textSize="28sp"
+        android:text="Account Kit:获取帐号信息"
+        android:onClick="accountLogin"
+        />
     <Button
         android:layout_marginTop="360dp"
-        android:layout_width="200dp"
+        android:layout_width="360dp"
+        android:textAllCaps="false"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
         android:background="@color/button_background"
-        android:textSize="30sp"
-        android:text="题目二" />
+        android:textSize="28sp"
+        android:text="Scan Kit:二维码扫码"
+        android:onClick="codeScanner"/>
+    <Button
+        android:layout_marginTop="520dp"
+        android:layout_width="360dp"
+        android:textAllCaps="false"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button_background"
+        android:textSize="28sp"
+        android:text="Ads Kit:展示开屏广告"
+        android:onClick="adsDisplay"/>
 
 </RelativeLayout>

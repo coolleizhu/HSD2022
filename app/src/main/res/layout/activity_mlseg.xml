@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="中级题三\nML Kit:人像抠图"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/colors_dis"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="left"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="1、在应用中集成ML Kit的图像分割能力\n2、创建图像分割器MLImageSegmentationAnalyzer，集成人像分割的模型包\n3、创建MLFrame，将图片转换为Bitmap，并添加到MLFrame中\n4、调用异步处理分割检测器，对图像进行人像分割处理，返回去除背景后的图像"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
