@@ -27,9 +27,13 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".beginnerlevel.CodeScannerActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".beginnerlevel.AdsDisplayActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name=".mediumlevel.ArMeshActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".mediumlevel.PushMessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mediumlevel.MlSegActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".advancedlevel.ArCombineActivity"
             android:screenOrientation="portrait"/>
