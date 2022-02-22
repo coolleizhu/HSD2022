@@ -24,6 +24,18 @@
 
   3D Modeling: https://developer.huawei.com/consumer/cn/doc/development/graphics-Guides/config-agc-0000001142925473
 
+  Location Kit: https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/dev-process-0000001050746141
+
+  Account Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/dev-process-0000001050443773
+
+  Push Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-app-quickstart-0000001071490422
+
+  Scan Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-dev-process-0000001050043953
+
+  Audio Editor Kit: https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/getting-started-0000001107145296
+
+  Video Editor Kit: https://developer.huawei.com/consumer/cn/doc/development/Media-Guides/getting-started-0000001101428380
+
 # FAQ
 
 1、Android Studio下载及配置：
