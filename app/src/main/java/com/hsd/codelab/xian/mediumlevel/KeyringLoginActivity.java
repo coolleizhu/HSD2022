@@ -1,4 +1,4 @@
-package com.hsd.codelab.xian.beginnerlevel;
+package com.hsd.codelab.xian.mediumlevel;
 
 import android.os.Bundle;
 
@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.hsd.codelab.xian.R;
 
-public class AdsDisplayActivity extends AppCompatActivity {
+public class KeyringLoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adsdisplay);
+        setContentView(R.layout.activity_keyring);
     }
 }

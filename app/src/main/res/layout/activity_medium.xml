@@ -29,8 +29,8 @@
         android:layout_centerHorizontal="true"
         android:background="@color/button_background"
         android:textSize="28sp"
-        android:text="AR Engine:人脸Mesh变色"
-        android:onClick="arMesh"/>
+        android:text="ML Kit:文本朗读"
+        android:onClick="mlRead"/>
     <Button
         android:layout_marginTop="360dp"
         android:layout_width="360dp"
@@ -39,19 +39,20 @@
         android:layout_centerHorizontal="true"
         android:background="@color/button_background"
         android:textSize="28sp"
-        android:text="Push Kit:消息推送"
-        android:onClick="pushMessage"
+        android:text="Keyring Kit:应用间登录授权"
+        android:onClick="keyringlogin"
         />
+
     <Button
-        android:layout_marginTop="520dp"
         android:layout_width="360dp"
-        android:textAllCaps="false"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
         android:background="@color/button_background"
-        android:textSize="28sp"
-        android:text="ML Kit:人像抠图"
-        android:onClick="mlSeg"/>
+        android:onClick="textTranslate"
+        android:text="ML Kit:文本翻译"
+        android:textAllCaps="false"
+        android:textSize="28sp" />
 
 
 </RelativeLayout>

@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="中级题三\nML Kit:人像抠图"
+            android:text="初级题五\nAudio Editor Kit:音频内容编辑"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="1、在应用中集成ML Kit的图像分割能力\n2、创建图像分割器MLImageSegmentationAnalyzer，集成人像分割的模型包\n3、创建MLFrame，将图片转换为Bitmap，并添加到MLFrame中\n4、调用异步处理分割检测器，对图像进行人像分割处理，返回去除背景后的图像"/>
+                android:text="在Audio Editor Codelabs的项目中\n1、在应用中集成音频编辑服务SDK\n2、通过setApiKey设置鉴权信息\n3、创建自定义音频选择页面并成功调用音频编辑UI界面\n4、在音频编辑页面中增加音效，增加乐段，对音乐进行变声"/>
 
 
         </LinearLayout>

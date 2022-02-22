@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="高级题一\nAR Engine:合并虚拟模型"
+            android:text="初级题四\nPush Kit:Token获取"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="1、基于AREngine World AR Demo，通过HitTest获取点击平面的位置，添加ARAnchor\n2、点击合并按钮，计算两个模型ARAnchor的ARPose\n3、将之前的Anchor移除，通过ARSession.CreateAnchor添加新Anchor，更新Scale，显示效果为两个模型合并为了一个大模型"/>
+                android:text="在Push Codelabs的项目中\n1、在应用中集成推送服务SDK\n2、通过MyPushService中重载的onNewToken方法获得Token\n3、重写类中的onNewToken方法，通过该方法接收Token，并在界面中将Token的值进行展示"/>
 
 
         </LinearLayout>

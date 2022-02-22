@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="中级题二\nPush Kit:消息推送"
+            android:text="初级题二\nLocation Kit:展示用户位置信息"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="1、在应用中集成推送服务SDK\n2、通过MyPushService中重载的onNewToken方法获得Token\n3、重写类中的onNewToken方法，通过该方法接收Token\n4、在AppGallery Connect控制台中，使用设备的Token对其发送消息"/>
+                android:text="在Location Codelabs的项目中\n1、配置Huawei Ads SDK仓库及依赖包\n2、通过requestLocationUpdates接口获取位置信息\n3、将得到的位置信息在界面中打印\n4、删除位置信息更新请求"/>
 
 
         </LinearLayout>

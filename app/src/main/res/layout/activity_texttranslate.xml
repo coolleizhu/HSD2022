@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="中级题一\nAR Engine:人脸Mesh变色"
+            android:text="中级题三\nML Kit:文本翻译"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="1、基于AREngine Face AR Demo，使用ARFaceGeometry.getVertices()接口获取人脸Mesh关键点的三维坐标\n2、当嘴张大到一定程度后，改变人脸Mesh的贴图颜色\n3、当嘴闭上后，人脸Mesh贴图颜色变回之前的样子"/>
+                android:text="1、在应用中集成ML Kit的文本翻译能力\n2、设置鉴权信息\n3、对用户输入的字段进行语言类型检测\n4、调用异步接口将文本翻译为指定语言类型并在界面上显示"/>
 
 
         </LinearLayout>

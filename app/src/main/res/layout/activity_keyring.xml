@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="初级题一\nAccount Kit:获取帐号信息"
+            android:text="中级题二\nKeyring Kit:应用间登录授权"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -25,17 +25,18 @@
             android:layout_gravity="center_horizontal"
             android:background="@drawable/colors_dis"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginTop="24dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="24dp"
                 android:gravity="left"
-                android:textSize="20sp"
+                android:text="1、在应用A和应用B中集成Keyring Kit的SDK\n2、应用A登录时记录登录凭据，并将应用B加入共享列表中\n3、应用B启动时判断是否存在可用凭据，并使用已有凭据完成登录\n4、用户在应用A中登出后清除登录凭据"
                 android:textColor="@color/black"
-                android:text="在Account Codelabs的项目中\n1、集成华为帐号SDK\n2、进行静默登录\n4、如静默登录成功，打印登录成功信息；如果失败，打印错误并调用getSignInIntent方法拉取授权页面\n5、登录成功后，获取用户昵称、openId并打印在手机屏幕上"/>
+                android:textSize="20sp" />
 
 
         </LinearLayout>

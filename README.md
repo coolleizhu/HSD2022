@@ -1,26 +1,35 @@
-# HSD0605Codelab
+# 2022 HSD
 
+
+# HMS Core Codelab参考：
+
+  Location Kit: https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/HMSLocationKit
+  
+  Account Kit：https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/HMSAccounts
+  
+  Push Kit：https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/HMSPushKit
+  
+  Scan Kit：https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/ScanKit-BitmapMode
+
+  Audio Editor Kit: https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/HMSAudioEditorKit
+
+  Video Editor Kit: https://developer.huawei.com/consumer/cn/codelabsPortal/carddetails/HMSVideoEditorKit
 
 # HMS Core开发文档参考：
+  ML Kit TTS: https://developer.huawei.com/consumer/cn/doc/development/hiai-Guides/ml-tts-0000001050068169
 
-  AR Engine：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001088644949
-  
-  Account Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050048870
-  
-  Ads Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/publisher-service-introduction-0000001070671805
- 
-  Push Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/service-introduction-0000001050040060
-  
-  ML Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/service-introduction-0000001050040017
-  
-  Scan Kit：https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/service-introduction-0000001050041994
-  
-  
+  Keyring Kit: https://developer.huawei.com/consumer/cn/doc/development/Security-Guides/keyring-0000001135972364
+
+  ML Kit Translate: https://developer.huawei.com/consumer/cn/doc/development/hiai-Guides/real-time-translation-0000001050040079
+
+  3D Modeling: https://developer.huawei.com/consumer/cn/doc/development/graphics-Guides/config-agc-0000001142925473
+
 # FAQ
 
 1、Android Studio下载及配置：
 
-下载链接：https://developer.android.com/studio/install?hl=zh-cn
+下载链接：https://developer.android.com/studio/archive?hl=zh-cn
+建议使用Android Studio Arctic Fox版本
 
 项目结构：https://developer.android.com/studio/projects?hl=zh-cn
 

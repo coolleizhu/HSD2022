@@ -21,23 +21,27 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".MediumLevelActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".AdvancedLevelActivity"
+        <activity android:name=".OpenQuestionActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".beginnerlevel.AccountLoginActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".beginnerlevel.CodeScannerActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".beginnerlevel.AdsDisplayActivity"
+        <activity android:name=".beginnerlevel.LocationDisplayActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".mediumlevel.ArMeshActivity"
+        <activity android:name=".beginnerlevel.PushTokenActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".mediumlevel.PushMessageActivity"
+        <activity android:name=".beginnerlevel.AudioEditorActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".mediumlevel.MlSegActivity"
+        <activity android:name=".beginnerlevel.VideoEditorActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".advancedlevel.ArCombineActivity"
+        <activity android:name=".mediumlevel.TextTranslateActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".advancedlevel.VoiceTranslateActivity"
+        <activity android:name=".mediumlevel.KeyringLoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".mediumlevel.MlReadActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".advancedlevel.ObjectModelingActivity"
             android:screenOrientation="portrait"/>
     </application>
 

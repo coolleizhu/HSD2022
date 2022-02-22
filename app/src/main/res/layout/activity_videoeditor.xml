@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="初级题一\nAccount Kit:获取帐号信息"
+            android:text="初级题六\nVideo Editor Kit:视频内容编辑"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="在Account Codelabs的项目中\n1、集成华为帐号SDK\n2、进行静默登录\n4、如静默登录成功，打印登录成功信息；如果失败，打印错误并调用getSignInIntent方法拉取授权页面\n5、登录成功后，获取用户昵称、openId并打印在手机屏幕上"/>
+                android:text="在Video Editor Codelabs的项目中\n1、在应用中集成视频编辑服务SDK\n2、通过setApiKey设置鉴权信息\n3、创建自定义视频文件选择页面并成功调用视频编辑UI界面\n4、在视频编辑页面中对视频进行变速，倒放操作"/>
 
 
         </LinearLayout>

@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="初级题三\nAds Kit:展示开屏广告"
+            android:text="中级题一\nML Kit:文本朗读"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="1、配置Huawei Ads SDK仓库及依赖包\n2、在xml文件中添加SplashView\n3、修改应用默认启动页面\n4、通过SplashView加载广告，进行展示"/>
+                android:text="1、在应用中集成ML Kit的文本朗读能力\n2、设置鉴权信息\n3、对用户输入的字段进行语言类型检测\n4、根据语言类型，调用TTS引擎将文本在线转换为语音\n5、播放转换后的语音，并在播放完成后释放资源"/>
 
 
         </LinearLayout>

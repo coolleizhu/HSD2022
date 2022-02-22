@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void mediumLevel(View view) {
         startActivity(new Intent(MainActivity.this, MediumLevelActivity.class));
     }
-    public void advancedLevel(View view) {
-        startActivity(new Intent(MainActivity.this, AdvancedLevelActivity.class));
+    public void openQuestion(View view) {
+        startActivity(new Intent(MainActivity.this, OpenQuestionActivity.class));
     }
 }

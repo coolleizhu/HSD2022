@@ -1,4 +1,4 @@
-package com.hsd.codelab.xian.mediumlevel;
+package com.hsd.codelab.xian.beginnerlevel;
 
 import android.os.Bundle;
 
@@ -6,10 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.hsd.codelab.xian.R;
 
-public class ArMeshActivity extends AppCompatActivity {
+public class PushTokenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_armesh);
+        setContentView(R.layout.activity_pushtoken);
     }
 }

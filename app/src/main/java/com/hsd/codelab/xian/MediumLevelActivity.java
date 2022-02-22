@@ -6,9 +6,9 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.hsd.codelab.xian.mediumlevel.ArMeshActivity;
-import com.hsd.codelab.xian.mediumlevel.MlSegActivity;
-import com.hsd.codelab.xian.mediumlevel.PushMessageActivity;
+import com.hsd.codelab.xian.mediumlevel.TextTranslateActivity;
+import com.hsd.codelab.xian.mediumlevel.MlReadActivity;
+import com.hsd.codelab.xian.mediumlevel.KeyringLoginActivity;
 
 public class MediumLevelActivity extends AppCompatActivity {
     @Override
@@ -17,15 +17,15 @@ public class MediumLevelActivity extends AppCompatActivity {
         setContentView(R.layout.activity_medium);
     }
 
-    public void pushMessage(View view) {
-        startActivity(new Intent(MediumLevelActivity.this, PushMessageActivity.class));
+    public void keyringlogin(View view) {
+        startActivity(new Intent(MediumLevelActivity.this, KeyringLoginActivity.class));
     }
 
-    public void arMesh(View view) {
-        startActivity(new Intent(MediumLevelActivity.this, ArMeshActivity.class));
+    public void textTranslate(View view) {
+        startActivity(new Intent(MediumLevelActivity.this, TextTranslateActivity.class));
     }
 
-    public void mlSeg(View view) {
-        startActivity(new Intent(MediumLevelActivity.this, MlSegActivity.class));
+    public void mlRead(View view) {
+        startActivity(new Intent(MediumLevelActivity.this, MlReadActivity.class));
     }
 }

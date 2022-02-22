@@ -16,13 +16,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
-            android:text="HSD@西安\n     Codelab"
+            android:text="2022HSD有话说 \n   Hi，学开发吗？"
             android:textColor="@color/white"
             android:textSize="40sp"></TextView>
 
     </RelativeLayout>
+
     <Button
         android:id="@+id/begineer"
         android:layout_width="200dp"
@@ -30,11 +31,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="280dp"
         android:background="@color/button_background"
+        android:onClick="beginnerLevel"
         android:text="初级题"
         android:textColor="@color/white"
-        android:textSize="30dp"
-        android:onClick="beginnerLevel"
-        ></Button>
+        android:textSize="30dp"></Button>
 
     <Button
         android:id="@+id/medium"
@@ -43,11 +43,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
         android:background="@color/head_blue"
+        android:onClick="mediumLevel"
         android:text="中级题"
         android:textColor="@color/white"
-        android:textSize="30dp"
-        android:onClick="mediumLevel"
-        ></Button>
+        android:textSize="30dp"></Button>
 
     <Button
         android:id="@+id/advanced"
@@ -56,10 +55,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="520dp"
         android:background="@color/set2_2"
-        android:text="高级题"
+        android:onClick="openQuestion"
+        android:text="开放题"
         android:textColor="@color/white"
-        android:textSize="30dp"
-        android:onClick="advancedLevel"
-        ></Button>
+        android:textSize="30dp"></Button>
 
 </RelativeLayout>

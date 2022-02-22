@@ -24,25 +24,14 @@
 
 
     <Button
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:layout_width="360dp"
-        android:textAllCaps="false"
-        android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
         android:background="@color/button_background"
-        android:textSize="28sp"
-        android:text="AR Engine:合并虚拟模型"
-        android:onClick="arCombine"
-        />
-    <Button
-        android:layout_marginTop="360dp"
-        android:layout_width="360dp"
+        android:onClick="objectModeling"
+        android:text="3D Modeling:构建3D模型"
         android:textAllCaps="false"
-        android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
-        android:background="@color/button_background"
-        android:textSize="28sp"
-        android:text="ML Kit:智能语音翻译"
-        android:onClick="voiceTranslate"/>
+        android:textSize="28sp" />
 
 </RelativeLayout>

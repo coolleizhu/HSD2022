@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <RelativeLayout
+        android:id="@+id/topic"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_alignParentTop="true"
@@ -18,39 +19,85 @@
             android:text="Beginner Level"
             android:textColor="@color/white"
             android:textSize="30sp"></TextView>
-
     </RelativeLayout>
 
-    <Button
-        android:layout_marginTop="200dp"
-        android:layout_width="360dp"
-        android:textAllCaps="false"
-        android:layout_height="80dp"
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_below="@id/topic"
         android:layout_centerHorizontal="true"
-        android:background="@color/button_background"
-        android:textSize="28sp"
-        android:text="Account Kit:获取帐号信息"
-        android:onClick="accountLogin"
-        />
-    <Button
-        android:layout_marginTop="360dp"
-        android:layout_width="360dp"
-        android:textAllCaps="false"
-        android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
-        android:background="@color/button_background"
-        android:textSize="28sp"
-        android:text="Scan Kit:二维码扫码"
-        android:onClick="codeScanner"/>
-    <Button
-        android:layout_marginTop="520dp"
-        android:layout_width="360dp"
-        android:textAllCaps="false"
-        android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
-        android:background="@color/button_background"
-        android:textSize="28sp"
-        android:text="Ads Kit:展示开屏广告"
-        android:onClick="adsDisplay"/>
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:layout_marginTop="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button_background"
+            android:onClick="accountLogin"
+            android:text="Account Kit:帐号登陆成功"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button_background"
+            android:onClick="locationDisplay"
+            android:text="Location Kit:获取当前位置信息"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button_background"
+            android:onClick="codeScanner"
+            android:text="Scan Kit:二维码扫码"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/button_background"
+            android:onClick="getPushToken"
+            android:text="Push Kit:获取Token信息"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+            android:background="@color/button_background"
+            android:layout_marginTop="20dp"
+            android:onClick="editAudio"
+            android:text="Audio Editor Kit:编辑音频文件并导出"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="80dp"
+            android:background="@color/button_background"
+            android:onClick="editVideo"
+            android:text="Video Edito Kit:编辑视频文件并导出"
+            android:textAllCaps="false"
+            android:textSize="28sp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

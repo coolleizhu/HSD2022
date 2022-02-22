@@ -7,8 +7,11 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.hsd.codelab.xian.beginnerlevel.AccountLoginActivity;
-import com.hsd.codelab.xian.beginnerlevel.AdsDisplayActivity;
+import com.hsd.codelab.xian.beginnerlevel.AudioEditorActivity;
 import com.hsd.codelab.xian.beginnerlevel.CodeScannerActivity;
+import com.hsd.codelab.xian.beginnerlevel.LocationDisplayActivity;
+import com.hsd.codelab.xian.beginnerlevel.PushTokenActivity;
+import com.hsd.codelab.xian.beginnerlevel.VideoEditorActivity;
 
 public class BeginnerLevelActivity extends AppCompatActivity {
     @Override
@@ -25,7 +28,19 @@ public class BeginnerLevelActivity extends AppCompatActivity {
         startActivity(new Intent(BeginnerLevelActivity.this, CodeScannerActivity.class));
     }
 
-    public void adsDisplay(View view) {
-        startActivity(new Intent(BeginnerLevelActivity.this, AdsDisplayActivity.class));
+    public void locationDisplay(View view) {
+        startActivity(new Intent(BeginnerLevelActivity.this, LocationDisplayActivity.class));
+    }
+
+    public void getPushToken(View view) {
+        startActivity(new Intent(BeginnerLevelActivity.this, PushTokenActivity.class));
+    }
+
+    public void editAudio(View view) {
+        startActivity(new Intent(BeginnerLevelActivity.this, AudioEditorActivity.class));
+    }
+
+    public void editVideo(View view) {
+        startActivity(new Intent(BeginnerLevelActivity.this, VideoEditorActivity.class));
     }
 }

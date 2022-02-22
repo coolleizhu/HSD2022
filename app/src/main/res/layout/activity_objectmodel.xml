@@ -14,7 +14,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="15dp"
-            android:text="高级题二\nML Kit:智能语音翻译"
+            android:text="开放题\n3D Modeling:构建3D模型"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="30sp" />
@@ -35,7 +35,7 @@
                 android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="1、集成华为ML Kit的语音识别、翻译和语音合成能力\n2、通过MLAsrCaptureActivity对语音进行获取，并将其转换为文本\n3、将识别到的文本通过MLRemoteTranslator翻译为目标语言的文本\n4、最后将翻译好的文本通过MLTtsEngine合成为语音，并播放出来"/>
+                android:text="元宇宙正如火如荼，3D模型正是其中不可或缺的角色。丰富而真实的建模给了用户更真实的体验。学习使用HMS Core 3D建模服务，找出你身边的物品，生成模型。比一比谁的模型更真实。\n1、使用3D建模服务示例代码，参考指导文档生成3D建模应用。\n2、学习建模教程\n3、为身边的物品建立3D模型"/>
 
 
         </LinearLayout>
