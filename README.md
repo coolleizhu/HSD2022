@@ -47,6 +47,6 @@
 
 2、gradle无法使用，配置使用离线gradle包：
 
-下载gradle-6.5-bin.zip，下载好后保存在 D:\Android\gradle，在Android Studio中打开工程中的gradle-wrapper.properties文件（这个文件是专门用来管理gradle的配置文件），将其中的distributionUrl 一项修改为 distributionUrl=file:///D:/Android/gradle/gradle-6.5-bin.zip
+下载gradle-6.5-bin.zip( https://gradle.org/next-steps/?version=6.5&format=bin )，下载好后保存在 D:\Android\gradle，在Android Studio中打开工程中的gradle-wrapper.properties文件（这个文件是专门用来管理gradle的配置文件），将其中的distributionUrl 一项修改为 distributionUrl=file:///D:/Android/gradle/gradle-6.5-bin.zip
 
 
